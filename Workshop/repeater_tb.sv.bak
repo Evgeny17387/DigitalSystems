@@ -1,0 +1,19 @@
+
+module repeater_tb;
+
+	logic a;
+	logic [7:0] b;
+
+	repeater uut(.B(b), .A(a));
+
+	initial begin
+
+		a = 1'b0;
+
+		#10
+
+		a = 1'b1;
+	end
+
+endmodule
+

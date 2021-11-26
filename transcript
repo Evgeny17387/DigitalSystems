@@ -1,0 +1,64 @@
+# Compile of and_struct.v failed with 4 errors.
+# Compile of and_struct.v failed with 4 errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# Compile of and_struct_tb.v failed with 2 errors.
+# Compile of and_struct_tb.v failed with 2 errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of and_struct_tb.v was successful.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.and_struct_tb
+# vsim -gui work.and_struct_tb 
+# Start time: 22:13:12 on Oct 24,2021
+# Loading work.and_struct_tb
+# Loading work.and_struct
+add wave -position insertpoint sim:/and_struct_tb/*
+add wave -position insertpoint sim:/and_struct_tb/MUT/*
+run
+quit -sim
+# End time: 22:22:56 on Oct 24,2021, Elapsed time: 0:09:44
+# Errors: 0, Warnings: 19
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# Compile of and_cont.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# Compile of and_cont.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v failed with 1 errors.
+# Compile of and_cont.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of and_struct.v was successful.
+# Compile of and_struct_tb.v was successful.
+# Compile of and_cont.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.and_struct_tb
+# vsim -gui work.and_struct_tb 
+# Start time: 22:35:22 on Oct 24,2021
+# Loading work.and_struct_tb
+# Loading work.and_struct
+# Loading work.and_cont
+add wave -position insertpoint sim:/and_struct_tb/AND_STRUCT/*
+add wave -position insertpoint sim:/and_struct_tb/*
+add wave -position insertpoint sim:/and_struct_tb/*
+add wave -position insertpoint sim:/and_struct_tb/AND_STRUCT/*
+add wave -position insertpoint sim:/and_struct_tb/AND_CONT/*
+run
+quit -sim
+# End time: 22:37:36 on Oct 24,2021, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 6

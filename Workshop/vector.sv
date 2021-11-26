@@ -1,0 +1,18 @@
+
+module vector(
+	output logic [1:0] B,
+	input logic [1:0] A
+);
+	
+// Option 1
+//	assign B[0] = A[1];
+//	assign B[1] = A[0];
+
+// Option 2
+//	assign B = {A[0], A[1]};
+
+// Option 3
+	assign B = {A[0], A[1]};
+
+endmodule
+

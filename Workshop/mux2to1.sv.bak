@@ -1,0 +1,25 @@
+
+module mux2to1(
+	output logic OUT,
+	input logic SEL,
+	input logic A,
+	input logic B
+);
+
+// Option 1
+
+//	assign OUT = (SEL) ? B : A;
+
+// Option 2
+
+	logic sel_not;
+	logic b_sel;
+	logic a_sel;
+	not(sel_not, SEL);
+	and(b_sel, B, SEL);
+	and(a_sel, A, sel_not);
+	or (OUT, a_sel, b_sel);
+
+
+endmodule
+

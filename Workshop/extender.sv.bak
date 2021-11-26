@@ -1,0 +1,12 @@
+
+module extender(
+	output logic [7:0] U,
+	output logic [7:0] S,
+	input logic [3:0] A
+);
+
+	assign U = {4{0}, A[3:0]};
+	assign S = {4{A[3]}, A[3:0]};
+
+endmodule
+

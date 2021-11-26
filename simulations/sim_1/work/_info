@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1
+vmux2
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1637931664
+!i10b 1
+!s100 C4?HDDHg7MdCGLe4gB<_31
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IASD?G0bB_E3dbcVlcmoE_3
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1637931659
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv
+!i122 0
+L0 2 33
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1637931664.000000
+!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv|
+!i113 1
+o-work work
+tCvgOpt 0

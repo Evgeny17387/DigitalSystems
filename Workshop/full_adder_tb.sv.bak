@@ -1,0 +1,41 @@
+
+module full_adder_tb;
+
+	logic s;
+	logic c_out;
+	logic c_in;
+	logic a;
+	logic b;
+
+	full_adder uut(.S(s), .C_OUT(c_out), .A(a), .B(b), .C_IN(c_in));
+
+	initial begin
+
+		for (c_in = 0; c_in < 2; c_in = c_in + 1)
+		begin
+
+			a = 0;
+			b = 0;
+
+			#10
+	
+			a = 1;
+			b = 0;
+
+			#10
+		
+			a = 0;
+			b = 1;
+
+			#10
+
+			a = 1;
+			b = 1;
+
+			#10
+	
+		end
+
+	end
+
+endmodule
