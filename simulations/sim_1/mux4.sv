@@ -1,4 +1,3 @@
-// 4->1 multiplexer template
 module mux4 (
     input logic d0,          // Data input 0
     input logic d1,          // Data input 1
@@ -8,10 +7,12 @@ module mux4 (
     output logic z           // Output
 );
 
-// Put your code here
-// ------------------
+	logic z_low;
+	logic z_high;
 
+    mux2 mux2_low(.d0(d0), .d1(d1), .sel(sel[0]), .z(z_low));
+    mux2 mux2_high(.d0(d2), .d1(d3), .sel(sel[0]), .z(z_high));
 
-// End of your code
+    mux2 mux2_oddeven(.d0(z_low), .d1(z_high), .sel(sel[1]), .z(z));
 
 endmodule

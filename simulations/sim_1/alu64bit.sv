@@ -1,4 +1,3 @@
-// 64-bit ALU template
 module alu64bit (
     input logic [63:0] a,    // Input bit a
     input logic [63:0] b,    // Input bit b
@@ -8,10 +7,7 @@ module alu64bit (
     output logic cout        // Carry out
 );
 
-// Put your code here
-// ------------------
 
 
-// End of your code
 
 endmodule
