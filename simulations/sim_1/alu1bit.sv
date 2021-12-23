@@ -7,19 +7,19 @@ module alu1bit (
     output logic cout        // Carry out
 );
 
-	parameter B = 0;
-	parameter C = 0;
-	parameter D = 0;
-	parameter E = 0;
-	parameter F = 0;
-	parameter G = 0;
+	// parameter B = 0;
+	// parameter C = 0;
+	// parameter D = 0;
+	// parameter E = 0;
+	// parameter F = 0;
+	// parameter G = 0;
 
-	// parameter B = 10;
-	// parameter C = 9;
-	// parameter D = 5;
-	// parameter E = 1;
-	// parameter F = 8;
-	// parameter G = 5;
+	parameter B = 10;
+	parameter C = 10;
+	parameter D = 5;
+	parameter E = 5;
+	parameter F = 8;
+	parameter G = 8;
 
 	logic w_or_1;
 	logic w_or_1_not;

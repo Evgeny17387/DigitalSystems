@@ -1,6 +1,6 @@
 module mux2_tb;
 
-	parameter tpd = 40;
+	parameter tpd = 50;
 
     logic D0;
     logic D1;

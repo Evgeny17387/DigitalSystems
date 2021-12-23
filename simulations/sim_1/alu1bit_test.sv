@@ -1,6 +1,6 @@
 module alu1bit_test;
 
-	parameter tpd = 10;
+	parameter tpd = 120;
 
     logic a;
     logic b;
@@ -14,155 +14,24 @@ module alu1bit_test;
 
     initial begin
 
-        cin = 1'b0;
+		op 	= 2'b11;
+		a 	= 1'b0;
+		b 	= 1'b0;
+		cin = 1'b0;
 	
-		// NOR
-		
-        op = 2'b00;
-
-        a = 1'b0;
-        b = 1'b0;
-		
 		#tpd;
 
-        a = 1'b1;
-        b = 1'b0;
+		op 	= 2'b11;
+		a 	= 1'b0;
+		b 	= 1'b1;
+		cin = 1'b0;
 		
 		#tpd;
 
-        a = 1'b0;
-        b = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-		
-		#tpd;
-
-		// XOR
-		
-        op = 2'b01;
-
-        a = 1'b0;
-        b = 1'b0;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-		
-		#tpd;
-
-		// FAS
-		
-        op = 2'b10;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b1;
-
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b1;
-
-		#tpd;
-
-        op = 2'b11;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b1;
-
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b1;
+		op 	= 2'b11;
+		a 	= 1'b0;
+		b 	= 1'b0;
+		cin = 1'b0;
 
     end
 

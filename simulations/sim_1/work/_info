@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
 !s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
@@ -11,49 +12,74 @@ cModel Technology
 Z0 dC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1
 valu1bit
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1638014294
+!s110 1640277665
 !i10b 1
-!s100 ]TlUWz94OCEleMJh?z@S^0
+!s100 L[aG1l07LV:oHzQF8KLj`3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IkTAb><b;nMl96@8XnmP0F0
+I9FgaV2gB2zH[;Ya6_dzI_3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1638014173
+w1640270437
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit.sv
-!i122 138
+!i122 416
 Z4 L0 1 40
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1638014294.000000
+!s108 1640277665.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit.sv|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
-valu1bit_test
+valu1bit_tb
 R1
-!s110 1638020740
+!s110 1640277664
 !i10b 1
-!s100 B;:aF[db3o[XV56^d7jBE1
+!s100 ]6T=bD5]YSDehBPBTPaF@1
 R2
-I0fPJN1Zjf90Xi]VIaFXgo0
+I1<9W6Ej76L_:l=JIonz5F3
 R3
 S1
 R0
-w1638014400
-8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv
-FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv
-!i122 156
+w1640272432
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_tb.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_tb.sv
+!i122 415
 L0 1 169
 R5
 r1
 !s85 0
 31
-!s108 1638020739.000000
+!s108 1640277664.000000
+!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_tb.sv|
+!i113 1
+R6
+R7
+valu1bit_test
+R1
+!s110 1640279188
+!i10b 1
+!s100 C6YVE6IY4k3_ATXjI2z5a1
+R2
+IRcd@We6EH_6?QCllKkmY:3
+R3
+S1
+R0
+w1640279094
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv
+!i122 425
+Z8 L0 1 38
+R5
+r1
+!s85 0
+31
+!s108 1640279188.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu1bit_test.sv|
 !i113 1
@@ -61,7 +87,7 @@ R6
 R7
 valu64bit
 R1
-!s110 1638021209
+!s110 1640277663
 !i10b 1
 !s100 k5?FXDE_<7oLlbSOkf7FV3
 R2
@@ -72,13 +98,13 @@ R0
 w1638021200
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit.sv
-!i122 167
+!i122 413
 R4
 R5
 r1
 !s85 0
 31
-!s108 1638021209.000000
+!s108 1640277663.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit.sv|
 !i113 1
@@ -86,24 +112,24 @@ R6
 R7
 valu64bit_test
 R1
-!s110 1638021394
+!s110 1640282588
 !i10b 1
-!s100 JkHabfUTkRmc0h`I[9mk43
+!s100 TWhX0UJP>F8]=5Q;DZkhi1
 R2
-I2^Bihliljk0Hg_oSMY@FS3
+IPWLeTZ1`iP2DK22i=kz<c1
 R3
 S1
 R0
-w1638021386
+w1640282584
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit_test.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit_test.sv
-!i122 168
-L0 1 28
+!i122 436
+R8
 R5
 r1
 !s85 0
 31
-!s108 1638021394.000000
+!s108 1640282588.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit_test.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/alu64bit_test.sv|
 !i113 1
@@ -111,101 +137,100 @@ R6
 R7
 vAND2
 R1
-Z8 !s110 1638013871
+Z9 !s110 1640277662
 !i10b 1
-!s100 c0[fGze2a=i>z7>Q]a9hn1
+!s100 lNX<CAQZ4PD6;Ed[GO;^T3
 R2
-IJ4h>UNIe?cn@e=GmlfCQ;3
+IQ1VQ[iXI_mHgdz9IeZBjP1
 R3
 S1
 R0
-w1637979644
-8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/AND2.sv
-FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/AND2.sv
-!i122 129
-L0 1 29
+Z10 w1640277640
+Z11 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv
+Z12 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv
+!i122 411
+L0 56 24
 R5
 r1
 !s85 0
 31
-Z9 !s108 1638013871.000000
-!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/AND2.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/AND2.sv|
+Z13 !s108 1640277661.000000
+Z14 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv|
+Z15 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv|
 !i113 1
 R6
 R7
 n@a@n@d2
-vAND2_test
-R1
-Z10 !s110 1638013872
-!i10b 1
-!s100 X0zh67RM>S57<fi@ed0X82
-R2
-I>5IY9e<_>F6@3^b0>ko0_0
-R3
-S1
-R0
-w1637978864
-8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/AND2_test.sv
-FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/AND2_test.sv
-!i122 132
-L0 1 34
-R5
-r1
-!s85 0
-31
-!s108 1638013872.000000
-!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/AND2_test.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/AND2_test.sv|
-!i113 1
-R6
-R7
-n@a@n@d2_test
 vfas
 R1
-R10
+R9
 !i10b 1
-!s100 JEaJERWd2hSXAgVh5;Ce82
+!s100 dm0P<`Y1?aG>fC7KAS;oB3
 R2
-IW;CWn<0iAJg;TXQ2G]5P=1
+IHj?261:01^M2JfOE;L]Pk3
 R3
 S1
 R0
-w1637982619
-8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv
-FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv
-!i122 131
+R10
+R11
+R12
+!i122 411
 L0 1 54
 R5
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas.sv|
+R13
+R14
+R15
 !i113 1
 R6
 R7
-vfas_test
+vfas_tb
 R1
-R8
+!s110 1640277660
 !i10b 1
-!s100 AzR2j4@2[TLXTKzF@FW_]3
+!s100 h5eH5fO:`GIiRHN6YA2RH2
 R2
-Idn[[Z_A49X>;BMF1YB=gQ1
+IEC[j0TWCJ?SoN`=QO44NL2
 R3
 S1
 R0
-w1637983103
-8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv
-FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv
-!i122 130
+w1640264970
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_tb.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_tb.sv
+!i122 409
 L0 1 67
 R5
 r1
 !s85 0
 31
-R9
+!s108 1640277660.000000
+!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_tb.sv|
+!i113 1
+R6
+R7
+vfas_test
+R1
+Z16 !s110 1640277659
+!i10b 1
+!s100 [C:=U4@KgU;6eH?d1jFH_0
+R2
+I65WO]]b6XimJkJGNN0aWL0
+R3
+S1
+R0
+w1640267681
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv
+!i122 408
+R8
+R5
+r1
+!s85 0
+31
+Z17 !s108 1640277659.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/fas_test.sv|
 !i113 1
@@ -213,24 +238,24 @@ R6
 R7
 vmux2
 R1
-Z11 !s110 1638013869
+R16
 !i10b 1
-!s100 3FUg^?zRN;XJ7NYWaIKO92
+!s100 KLOTDfi=WXKe]FMhZaJYJ2
 R2
-I1EQV6]Z9lN9=gk6[5znKL3
+IRc@fo>i:oaNoRJM5bLmoj3
 R3
 S1
 R0
-w1638012558
+w1640270752
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv
-!i122 125
-L0 1 38
+!i122 407
+R8
 R5
 r1
 !s85 0
 31
-Z12 !s108 1638013869.000000
+R17
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2.sv|
 !i113 1
@@ -238,24 +263,24 @@ R6
 R7
 vmux2_tb
 R1
-R11
+!s110 1640277658
 !i10b 1
-!s100 QLT4a;RK<dKz7USQG^i8U2
+!s100 f;=<;m0:=Z=1g[maNkIJc3
 R2
-I[47H`B=1XW^A?j7fLZ23?3
+I9m@PReSj<1Taj=2>^da]C2
 R3
 S1
 R0
-w1637957424
+w1640257035
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2_tb.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2_tb.sv
-!i122 124
+!i122 406
 L0 1 62
 R5
 r1
 !s85 0
 31
-R12
+!s108 1640277658.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux2_tb.sv|
 !i113 1
@@ -263,7 +288,7 @@ R6
 R7
 vmux4
 R1
-R11
+!s110 1640277657
 !i10b 1
 !s100 [<Zz=eziLQY@iLMAEMXXn0
 R2
@@ -274,21 +299,46 @@ R0
 w1637957813
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4.sv
-!i122 123
+!i122 405
 L0 1 18
 R5
 r1
 !s85 0
 31
-Z13 !s108 1638013868.000000
+!s108 1640277657.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4.sv|
 !i113 1
 R6
 R7
+vmux4_tb
+R1
+Z18 !s110 1640277656
+!i10b 1
+!s100 ^leRZ0Z4UAHeFHTD?MGHz3
+R2
+Ie3Yd8JX0YR^<d7U18AGR=2
+R3
+S1
+R0
+w1640265332
+8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_tb.sv
+FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_tb.sv
+!i122 404
+L0 1 134
+R5
+r1
+!s85 0
+31
+!s108 1640277656.000000
+!s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_tb.sv|
+!i113 1
+R6
+R7
 vmux4_test
 R1
-!s110 1638013868
+R18
 !i10b 1
 !s100 g_0XI4F5W^o=KXJgk5jl[2
 R2
@@ -296,16 +346,16 @@ I:Yc19^m`BYdX`z:zg<ZJJ1
 R3
 S1
 R0
-w1637960418
+w1640259759
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_test.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_test.sv
-!i122 122
+!i122 403
 L0 1 42
 R5
 r1
 !s85 0
 31
-R13
+Z19 !s108 1640277655.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_test.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/mux4_test.sv|
 !i113 1
@@ -313,7 +363,7 @@ R6
 R7
 vNOT
 R1
-Z14 !s110 1638013870
+!s110 1640277655
 !i10b 1
 !s100 K^gGD`WG[XMMPZ=Z=jl^43
 R2
@@ -321,16 +371,16 @@ I0_caZX4SD252Yz^^0M;[O1
 R3
 S1
 R0
-Z15 w1637916141
+Z20 w1637916141
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/NOT.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/NOT.sv
-!i122 128
+!i122 402
 L0 1 11
 R5
 r1
 !s85 0
 31
-Z16 !s108 1638013870.000000
+R19
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/NOT.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/NOT.sv|
 !i113 1
@@ -339,7 +389,7 @@ R7
 n@n@o@t
 vOR2
 R1
-R14
+!s110 1640277654
 !i10b 1
 !s100 TKP6Xe513KabBIJNZ^OmL2
 R2
@@ -347,16 +397,16 @@ IXh>5N?;=k`oNo=S83KzXZ3
 R3
 S1
 R0
-R15
+R20
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/OR2.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/OR2.sv
-!i122 127
-Z17 L0 1 12
+!i122 401
+Z21 L0 1 12
 R5
 r1
 !s85 0
 31
-R16
+!s108 1640277654.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/OR2.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/OR2.sv|
 !i113 1
@@ -365,7 +415,7 @@ R7
 n@o@r2
 vXOR2
 R1
-R14
+!s110 1640277653
 !i10b 1
 !s100 WOl6GJfJ^zXX:H7>8beNN0
 R2
@@ -376,13 +426,13 @@ R0
 w1637976983
 8C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/XOR2.sv
 FC:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/XOR2.sv
-!i122 126
-R17
+!i122 400
+R21
 R5
 r1
 !s85 0
 31
-R16
+!s108 1640277653.000000
 !s107 C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/XOR2.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/evostrov/Desktop/git/SystemVerilog/simulations/sim_1/libcells/XOR2.sv|
 !i113 1

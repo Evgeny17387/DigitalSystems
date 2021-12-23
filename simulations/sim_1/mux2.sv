@@ -5,15 +5,15 @@ module mux2 (
     output logic z           // Output
 );
 
-	parameter B = 0;
-	parameter C = 0;
-	parameter D = 0;
-	parameter E = 0;
+	// parameter B = 0;
+	// parameter C = 0;
+	// parameter D = 0;
+	// parameter E = 0;
 
-	// parameter B = 10;
-	// parameter C = 9;
-	// parameter D = 5;
-	// parameter E = 1;
+	parameter B = 10;
+	parameter C = 9;
+	parameter D = 5;
+	parameter E = 1;
 
     logic w1;
     logic w2;

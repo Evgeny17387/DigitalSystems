@@ -1,6 +1,6 @@
 module fas_test;
 
-	parameter tpd = 10;
+	parameter tpd = 120;
 
     logic a;
     logic b;
@@ -14,53 +14,24 @@ module fas_test;
 
     initial begin
 
-        a_ns = 1'b1;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b0;
+        a_ns 	= 1'b1;
+        a 		= 1'b0;
+        b 		= 1'b1;
+        cin 	= 1'b0;
 		
 		#tpd;
 
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b0;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b0;
-		
-		#tpd;
-
-        a = 1'b0;
-        b = 1'b1;
-        cin = 1'b1;
-		
-		#tpd;
-
-        a = 1'b1;
-        b = 1'b0;
-        cin = 1'b1;
+        a_ns 	= 1'b1;
+        a 		= 1'b1;
+        b 		= 1'b1;
+        cin 	= 1'b0;
 
 		#tpd;
 
-        a = 1'b1;
-        b = 1'b1;
-        cin = 1'b1;
+        a_ns 	= 1'b1;
+        a 		= 1'b0;
+        b 		= 1'b1;
+        cin 	= 1'b0;
 
     end
 

@@ -1,6 +1,6 @@
 module alu64bit_test;
 
-	parameter tpd = 10;
+	parameter tpd = 2500;
 
     logic [63:0] a;
     logic [63:0] b;
@@ -14,15 +14,27 @@ module alu64bit_test;
 
     initial begin
 
-        cin = 1'b1;
-	
-		// NOR
-		
-        op = 2'b10;
+		op = 2'b10;
+		a = 64'hFFFFFFFFFFFFFFFF;
+		b = 64'h0;
+		cin = 1'b0;
 
-        a = 64'hffffffffffffffff;
-        b = 64'b0;
+		#tpd;
+
+		op = 2'b10;
+		a = 64'hFFFFFFFFFFFFFFFF;
+		b = 64'h0;
+		cin = 1'b1;
+
+		#tpd;
+
+		op = 2'b10;
+		a = 64'hFFFFFFFFFFFFFFFF;
+		b = 64'h0;
+		cin = 1'b0;
 		
     end
 
 endmodule
+
+// 0xFFFFFFFFFFFFFFFF
