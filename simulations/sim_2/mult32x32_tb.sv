@@ -19,13 +19,35 @@ module mult32x32_tb;
 
         clk = 1'b1;
         start = 1'b0;
-		a = 32'd2;
-		b = 32'd3;
-
+		a = 32'd0;
+		b = 32'd0;
         reset = 1'b1;
+
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
+
         reset = 1'b0;
 
+		#PERIOD;
+
+		a = 32'd2;
+		b = 32'd3;
+        start = 1'b1;
+		#PERIOD;
+        start = 1'b0;
+
+		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
+
+		a = 32'd123;
+		b = 32'd456;
+        start = 1'b1;
+		#PERIOD;
+        start = 1'b0;
+
+		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
+		#PERIOD; #PERIOD; #PERIOD;
+
+		a = 32'd10000000;
+		b = 32'd10000000;
         start = 1'b1;
 		#PERIOD;
         start = 1'b0;
