@@ -7,8 +7,8 @@ module mult32x32_tb;
     logic reset;
 
     logic start;
-    logic [1:0] a;
-    logic [1:0] b;
+    logic [31:0] a;
+    logic [31:0] b;
 
     logic busy;
     logic product;
@@ -19,8 +19,8 @@ module mult32x32_tb;
 
         clk = 1'b1;
         start = 1'b0;
-		a = 2'b11;
-		b = 2'b11;
+		a = 32'd2;
+		b = 32'd3;
 
         reset = 1'b1;
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
