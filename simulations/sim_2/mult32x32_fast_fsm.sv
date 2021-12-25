@@ -56,18 +56,37 @@ begin
         state_1:
 		begin
 			state_next = state_2;
+
+			if (a_msw_is_0 && b_msw_is_0)
+			begin
+				state_next = state_idle;
+			end
+			else if (a_msw_is_0)
+			begin
+				state_next = state_3;
+			end
 		end
         state_2:
 		begin
 			state_next = state_3;
 			a_sel = 1'b1;
 			shift_sel = 2'b01;
+
+			if (b_msw_is_0)
+			begin
+				state_next = state_idle;
+			end
 		end
         state_3:
 		begin
 			state_next = state_4;
 			b_sel = 1'b1;
 			shift_sel = 2'b01;
+
+			if (a_msw_is_0 || b_msw_is_0)
+			begin
+				state_next = state_idle;
+			end
 		end
         state_4:
 		begin

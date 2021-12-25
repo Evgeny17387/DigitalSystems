@@ -11,7 +11,7 @@ module mult32x32_tb;
     logic [31:0] b;
 
     logic busy;
-    logic product;
+    logic [63:0] product;
 
     mult32x32 mult32x32_dut(.clk(clk), .reset(reset), .start(start), .a(a), .b(b), .busy(busy), .product(product));
 

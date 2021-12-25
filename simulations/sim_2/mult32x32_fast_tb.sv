@@ -11,7 +11,7 @@ module mult32x32_fast_tb;
     logic [31:0] b;
 
     logic busy;
-    logic product;
+    logic [63:0] product;
 
     mult32x32_fast mult32x32_fast_dut(.clk(clk), .reset(reset), .start(start), .a(a), .b(b), .busy(busy), .product(product));
 
@@ -24,9 +24,7 @@ module mult32x32_fast_tb;
         reset = 1'b1;
 
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
-
         reset = 1'b0;
-
 		#PERIOD;
 
 		a = 32'hFFFF;
@@ -34,7 +32,20 @@ module mult32x32_fast_tb;
         start = 1'b1;
 		#PERIOD;
         start = 1'b0;
+		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
 
+		a = 32'h1FFFF;
+		b = 32'hFFFF;
+        start = 1'b1;
+		#PERIOD;
+        start = 1'b0;
+		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
+
+		a = 32'hFFFF;
+		b = 32'h1FFFF;
+        start = 1'b1;
+		#PERIOD;
+        start = 1'b0;
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
 
 		a = 32'h1FFFF;
@@ -42,7 +53,6 @@ module mult32x32_fast_tb;
         start = 1'b1;
 		#PERIOD;
         start = 1'b0;
-
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
 
     end
