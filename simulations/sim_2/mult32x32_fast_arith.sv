@@ -1,4 +1,4 @@
-module mult32x32_arith (
+module mult32x32_fast_arith (
     input logic clk,             // Clock
     input logic reset,           // Reset
     input logic [31:0] a,        // Input a
@@ -8,6 +8,8 @@ module mult32x32_arith (
     input logic [1:0] shift_sel, // Select output from shifters
     input logic upd_prod,        // Update the product register
     input logic clr_prod,        // Clear the product register
+    output logic a_msw_is_0,     // Indicates MSW of operand A is 0
+    output logic b_msw_is_0,     // Indicates MSW of operand B is 0
     output logic [63:0] product  // Miltiplication product
 );
 
