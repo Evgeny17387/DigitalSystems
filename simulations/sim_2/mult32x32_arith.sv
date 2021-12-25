@@ -1,14 +1,14 @@
 module mult32x32_arith (
-    input logic clk,             	// Clock
-    input logic reset,           	// Reset
-    input logic [31:0] a,        	// Input a
-    input logic [31:0] b,        	// Input b
-    input logic clr_prod,        	// Clear the product register
-    input logic upd_prod,        	// Update the product register
-    input logic a_sel,           	// Select one 2-byte word from A
-    input logic b_sel,           	// Select one 2-byte word from B
-    input logic [1:0] shift_sel,	// Select output from shifters
-    output logic [63:0] product  	// Miltiplication product
+    input logic clk,             // Clock
+    input logic reset,           // Reset
+    input logic [31:0] a,        // Input a
+    input logic [31:0] b,        // Input b
+    input logic a_sel,           // Select one 2-byte word from A
+    input logic b_sel,           // Select one 2-byte word from B
+    input logic [1:0] shift_sel, // Select output from shifters
+    input logic upd_prod,        // Update the product register
+    input logic clr_prod,        // Clear the product register
+    output logic [63:0] product  // Miltiplication product
 );
 
 
