@@ -22,9 +22,7 @@ module mult32x32_fast_test;
         reset = 1'b1;
 
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
-
         reset = 1'b0;
-
 		#PERIOD;
 
 		a = 32'd309518561;
@@ -32,7 +30,14 @@ module mult32x32_fast_test;
         start = 1'b1;
 		#PERIOD;
         start = 1'b0;
+		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
+		#PERIOD;
 
+		a = 32'd309518561 & 32'hFFFF;
+		b = 32'd316276955 & 32'hFFFF;
+        start = 1'b1;
+		#PERIOD;
+        start = 1'b0;
 		#PERIOD; #PERIOD; #PERIOD; #PERIOD;
 
     end
