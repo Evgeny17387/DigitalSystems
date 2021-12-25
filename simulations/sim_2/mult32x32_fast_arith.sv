@@ -41,6 +41,17 @@ begin
 	a_after_select = a[15:0];
 	b_after_select = b[15:0];
 	result_after_shifter = 0;
+	a_msw_is_0 = 0;
+	b_msw_is_0 = 0;
+	
+	if (a[31:16] == 0)
+	begin
+		a_msw_is_0 = 1;
+	end
+	if (b[31:16] == 0)
+	begin
+		b_msw_is_0 = 1;
+	end
 
 	if (a_sel)
 	begin
